@@ -6,6 +6,6 @@
 # Escalada Lisandro
 # Gerzel Santiago
 # Leiva Daniel
-# Roing Nicolas
+# Roig Nicolas
 # Vega Anahi
 # Villarreal Paola
