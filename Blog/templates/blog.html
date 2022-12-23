@@ -1,0 +1,47 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block contenido %}
+
+<!-- Contenido -->
+<!-- Publicaciones -->
+<div class="heading-page header-text">
+  <section class="page-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text-content">
+            <marquee behavior="scroll" direction="right" scrolldelay="400">
+              <h2><b>PUBLICACIONES &#127991;</b></h2>
+            </marquee>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Publicaciones: fin -->
+<h6>NUEVA PUBLICACION</h6>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Autor</label>
+  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="usuario">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Titulo</label>
+  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="titulo">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Contenido</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+
+
+
+
+
+
+
+
+{% endblock contenido %}
